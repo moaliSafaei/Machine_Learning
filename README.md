@@ -36,14 +36,14 @@ The Iris Dataset will be utilized for classifying perennial plants based on thei
 The K-Nearest Neighbors (KNN) algorithm will be applied, and a confusion matrix will be generated to evaluate model performance.
 
 ### Key Steps
-	1. Normalization: Data normalization will be performed to ensure that all features contribute equally to the distance calculation.
-				Genre and Popularity Prediction for Music Dataset
-	2. Data Preprocessing: The “name,” “year,” and “artist” columns will be removed from the music dataset.
-				The “popularity” column will be split into five sections (e.g., low, moderate, high, very high, extremely high).
-	3. Quantification and One-Hot Encoding: A new column called “new_genre” was created and filled base on one-hot encoding method.
-	4. Data Features’ Distribution: The distribution of features in the dataset will be visualized to gain insights.
-	5. Normalization and Correlations: Feature normalization will be applied, and correlations between different features will be explored.
-	6. Data Splitting: The data will be split into training, validation, and test sets.
-	7. KNN Algorithm: The KNN algorithm will be employed to predict genres based on the features.
-				Hyperparameters will be tuned to find the best model in terms of accuracy.
-	8. Reporting Genres: The most and least frequent genres in the dataset will be reported.
+ 1. Normalization: Data normalization will be performed to ensure that all features contribute equally to the distance calculation.
+			Genre and Popularity Prediction for Music Dataset
+ 2. Data Preprocessing: The “name,” “year,” and “artist” columns will be removed from the music dataset.
+			The “popularity” column will be split into five sections (e.g., low, moderate, high, very high, extremely high).
+ 3. Quantification and One-Hot Encoding: A new column called “new_genre” was created and filled base on one-hot encoding method.
+ 4. Data Features’ Distribution: The distribution of features in the dataset will be visualized to gain insights.
+ 5. Normalization and Correlations: Feature normalization will be applied, and correlations between different features will be explored.
+ 6. Data Splitting: The data will be split into training, validation, and test sets.
+ 7. KNN Algorithm: The KNN algorithm will be employed to predict genres based on the features.
+			Hyperparameters will be tuned to find the best model in terms of accuracy.
+ 8. Reporting Genres: The most and least frequent genres in the dataset will be reported.
