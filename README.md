@@ -13,6 +13,7 @@ To address this issue, a generic example named Example_1 is presented:
  3. Correlation Analysis: Estimating the impact of different parameters on each class.
  4. Model Training: Employing the Logistic Regression approach.
  5. Model Assessment: Evaluating the model using the Confusion Matrix.
+### Results
 
 ## Example 2: Dielectric Performance Prediction
 #### Dataset: "breast_cancer.csv"
@@ -27,6 +28,7 @@ To address this issue, a generic example named Example_2 is presented:
  5. Three different Kernel are implemented: RBF (Radial Basis Function), Second-order polynomial kernel and Sigmoid kernels
  6. L2-Regularization is applied to the models.
 Moreover, they are implemented in a straightforward manner. Therefore, it’s useful to explore them through a basic example.
+### Results
 
 ## Example 3: Classification of Perennial Plants Using K-Nearest Neighbors (KNN)
 #### Dataset: "Iris.csv"
@@ -46,3 +48,22 @@ The K-Nearest Neighbors (KNN) algorithm will be applied, and a confusion matrix 
  7. KNN Algorithm: The KNN algorithm will be employed to predict genres based on the features.
 			Hyperparameters will be tuned to find the best model in terms of accuracy.
  8. Reporting Genres: The most and least frequent genres in the dataset will be reported.
+### Results
+
+## Example 4: Classification of Perennial Plants Using K-Nearest Neighbors (KNN)
+#### Dataset: "musics.csv"
+Record companies tend to classify their records by AI methods. Such action benefits them by enhancing content recommendation, personalization, metadata management, etc. 
+In Example_4, a comprehensive study was adopted to classify released songs from 2000 to 2020. At the end, the accuracy of each algorithm was evaluated and reported.
+
+### Key Steps
+ 1. Normalization: Data normalization will be performed to ensure that all features contribute equally to the distance calculation.
+			Genre and Popularity Prediction for Music Dataset
+ 2. Data Preprocessing: The “name,” “year,” and “artist” columns will be removed from the music dataset.
+			The “popularity” column will be split into five sections (e.g., low, moderate, high, very high, extremely high).
+ 3. Quantification and One-Hot Encoding: A new column called “new_genre” was created and filled base on one-hot encoding method.
+ 4. Data Features’ Distribution: The distribution of features in the dataset will be visualized to gain insights.
+ 5. Normalization and Correlations: Feature normalization will be applied, and correlations between different features will be explored.
+ 6. Data Splitting: The data will be split into training, validation, and test sets.
+ 7. Algorithms: Decision Tree, Random Forest, KNN and SVM are employed.
+ 8. Reporting Genres: The most and least frequent genres in the dataset will be reported.
+### Results
