@@ -1,14 +1,12 @@
 # Machine_Learning
 
-This repository showcases two illustrative examples, shedding light on the power of learning-based methods.
+This repository showcases two illustrative examples, shedding light on different machine learning methods.
 
 ## Example 1: Breast Cancer Prediction
+#### Dataset: "breast_cancer.csv"
 
 Breast cancer is a global health concern, demanding urgent attention. Furthermore, acccurate prediction of breast cancer plays a crucial role in our current world. 
-To address this issue, a generic example is presented, here:
-The dataset, named “breast_cancer.csv,” belongs to this example.
-The predictive model is implemented in the Jupyter notebook file titled “LogisticRegression_Prediction.ipynb”
-
+To address this issue, a generic example named Example_1 is presented:
 ### Key Steps:
  1. Data Preprocessing: Detecting and handling missing values and outliers.
  2. Feature Visualization: Properly visualizing the distribution of dataset features.
@@ -17,10 +15,10 @@ The predictive model is implemented in the Jupyter notebook file titled “Logis
  5. Model Assessment: Evaluating the model using the Confusion Matrix.
 
 ## Example 2: Dielectric Performance Prediction
+#### Dataset: "breast_cancer.csv"
 
 Dielectrics are used in capacitors and semiconductor devices, hold immense promise for novel applications like artificial muscles. Furthermore, predicting their failure mode is of great importance. 
-Example_2 addresses this issue. 
-The dataset, named “breast_cancer.csv,” belongs to this example.
+To address this issue, a generic example named Example_2 is presented:
 ### Key Steps:
  1. Assessing Performance: A comprehensive dataset is employed to assess dielectric performance.
  2. Prediction Approach: A non-linear regression method predicts material performance based on the maximum voltage applied to dielectrics.
@@ -28,17 +26,14 @@ The dataset, named “breast_cancer.csv,” belongs to this example.
  4. Code Reference: The Jupyter notebook “Nonlinear_Regression.ipynb” contains the implementation.
  5. Three different Kernel are implemented: RBF (Radial Basis Function), Second-order polynomial kernel and Sigmoid kernels
  6. L2-Regularization is applied to the models.
-
 Moreover, they are implemented in a straightforward manner. Therefore, it’s useful to explore them through a basic example.
 
 ## Example 3: Classification of Perennial Plants Using K-Nearest Neighbors (KNN)
+#### Dataset: "Iris.csv"
 
-These examples demonstrate the intersection of theory, data, and practical applications, fostering a deeper understanding of machine learning and its impact on real-world challenges.
-K-Nearest Neighbors (KNN), being non-parametric algorithms, rely on similarity and flexibility. This makes them valuable tools in various machine learning scenarios. 
-The Iris Dataset will be utilized for classifying perennial plants based on their sepal width, sepal length, petal width, and petal length.
+Classifying various plants based on their features such as their sepal width, sepal length, petal width, and petal length is a generic example artificial intelligence which is helpful for the beginners.
+In  Example_3, K-Nearest Neighbors (KNN) is used to illustrate non-parametric algorithms' simplicity as well as their flexibility. 
 The K-Nearest Neighbors (KNN) algorithm will be applied, and a confusion matrix will be generated to evaluate model performance.
-The dataset, named “Iris.csv,” belongs to this example.
-
 ### Key Steps
  1. Normalization: Data normalization will be performed to ensure that all features contribute equally to the distance calculation.
 			Genre and Popularity Prediction for Music Dataset
