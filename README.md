@@ -16,7 +16,7 @@ To address this issue, a generic example named Example_1 is presented:
 ### Results
 
 ## Example 2: Dielectric Performance Prediction
-#### Dataset: "breast_cancer.csv"
+#### Dataset: "Performance-Degradation Data Nelson.xlsx"
 
 Dielectrics are used in capacitors and semiconductor devices, hold immense promise for novel applications like artificial muscles. Furthermore, predicting their failure mode is of great importance. 
 To address this issue, a generic example named Example_2 is presented:
