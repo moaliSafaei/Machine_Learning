@@ -1,21 +1,10 @@
 # Machine_Learning
 
-This repository showcases two illustrative examples, shedding light on different machine learning methods.
+This repository showcases practical examples, shedding light on machine learning by investigating different algorithms.
 
-## Example 1: Breast Cancer Prediction
-#### Dataset: "breast_cancer.csv"
+## Example 1: Breast Cancer Prediction by Logistic regression
 
-Breast cancer is a global health concern, demanding urgent attention. Furthermore, acccurate prediction of breast cancer plays a crucial role in our current world. 
-To address this issue, a generic example named Example_1 is presented:
-### Key Steps:
- 1. Data Preprocessing: Detecting and handling missing values and outliers.
- 2. Feature Visualization: Properly visualizing the distribution of dataset features.
- 3. Correlation Analysis: Estimating the impact of different parameters on each class.
- 4. Model Training: Employing the Logistic Regression approach.
- 5. Model Assessment: Evaluating the model using the Confusion Matrix.
-### Results
-
-## Example 2: Dielectric Performance Prediction
+## Example 2: Dielectric Performance Prediction by Non-linear regression
 #### Dataset: "Performance-Degradation Data Nelson.xlsx"
 
 Dielectrics are used in capacitors and semiconductor devices, hold immense promise for novel applications like artificial muscles. Furthermore, predicting their failure mode is of great importance. 
@@ -50,7 +39,7 @@ The K-Nearest Neighbors (KNN) algorithm will be applied, and a confusion matrix 
  8. Reporting Genres: The most and least frequent genres in the dataset will be reported.
 ### Results
 
-## Example 4: Classification of Perennial Plants Using K-Nearest Neighbors (KNN)
+## Example 4: Classification of musical releases Using different algorithms (KNN)
 #### Dataset: "musics.csv"
 Record companies tend to classify their records by AI methods. Such action benefits them by enhancing content recommendation, personalization, metadata management, etc. 
 In Example_4, a comprehensive study was adopted to classify released songs from 2000 to 2020. At the end, the accuracy of each algorithm was evaluated and reported.
