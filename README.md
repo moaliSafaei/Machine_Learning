@@ -1,4 +1,4 @@
-# Machine_Learning
+# Machine Learning
 
 This repository showcases practical examples, shedding light on machine learning by investigating different algorithms.
 
